@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <style>
+        /* Basic Reset - White background for the entire page */
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            color: #333; /* Dark grey text */
+            line-height: 1.6;
+            background-color: #fff; /* Pure white background */
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            max-width: 1200px;
+            padding: 0 15px;
+        }
+
+        /* Header - Black background, White text */
+        header {
+            background-color: #000; /* Pure black */
+            color: #fff; /* Pure white text */
+            padding: 20px 0;
+            border-bottom: 5px solid #ccc; /* Light grey accent */
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.3); /* Darker shadow */
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            letter-spacing: 1px;
+        }
+
+        /* Navigation - Black background, White links */
+        nav {
+            background-color: #111; /* Very dark grey, almost black */
+            color: #fff; /* Pure white text */
+            padding: 10px 0;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+
+        nav a {
+            color: #fff; /* Pure white links */
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.1em;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #ccc; /* Light grey on hover */
+        }
+
+        /* Main Content Area - White background */
+        .main-content {
+            padding: 30px 0;
+            background-color: #fff; /* White content background */
+            margin-top: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Darker shadow */
+        }
+
+        /* Sections within Main Content - Light grey background with dark border */
+        .section {
+            margin-bottom: 30px;
+            padding: 20px;
+            border: 1px solid #333; /* Dark grey border */
+            border-radius: 5px;
+            background-color: #f9f9f9; /* Very light grey for section background */
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .section:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.3); /* Darker shadow on hover */
+        }
+
+        .section h2 {
+            color: #000; /* Pure black for section titles */
+            margin-top: 0;
+            font-size: 1.8em;
+            border-bottom: 2px solid #ccc; /* Light grey border */
+            padding-bottom: 8px;
+        }
+
+        .section p {
+            font-size: 1em;
+        }
+
+        .section ul {
+            color: #333; /* Dark grey for list items */
+        }
+
+        /* Footer - Black background, White text */
+        footer {
+            background-color: #000; /* Pure black */
+            color: #fff; /* Pure white text */
+            text-align: center;
+            padding: 25px 0;
+            margin-top: 20px;
+            border-top: 5px solid #ccc; /* Light grey accent */
+            box-shadow: 0 -2px 5px rgba(0,0,0,0.3); /* Darker shadow */
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>My Website</h1>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <a href="#section1">Home</a>
+            <a href="#section2">About</a>
+            <a href="#services">Services</a>
+            <a href="#section4">Contact</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <main class="main-content">
+            <section id="section1" class="section">
+                <h2>Welcome Section</h2>
+                <p>This is the main welcome section of the page. It introduces the user to the website's purpose.</p>
+                <p>We aim to provide a clean and well-structured layout for easy understanding and implementation.</p>
+            </section>
+
+            <section id="section2" class="section">
+                <h2>About Us</h2>
+                <p>In this section, you can learn more about who we are. We are passionate about creating efficient and elegant web solutions.</p>
+            </section>
+
+            <section id="services" class="section">
+                <h2>Our Services</h2>
+                <p>We offer a range of services including front-end development, UI/UX design, and web application creation.</p>
+                <ul>
+                    <li>Web Design & Development</li>
+                    <li>Responsive Layouts</li>
+                    <li>Custom Web Applications</li>
+                    <li>Performance Optimization</li>
+                </ul>
+            </section>
+
+            <section id="section4" class="section">
+                <h2>Contact Us</h2>
+                <p>Feel free to reach out to us for any inquiries or project collaborations. Contact details can be provided upon request.</p>
+            </section>
+        </main>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 My Black and White Layout. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
